@@ -1465,170 +1465,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "parts:AMS1117-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4027,6 +3863,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "parts:TS-1088-AR02016"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TS-1088-AR02016"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "parts:SW-SMD_L3.9-W3.0-P4.45"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XUNPU-TS-1088-AR02016_C720477.html"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "XUNPU(讯普)"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "TS-1088-AR02016"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C720477"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Tactile Switches"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TS-1088-AR02016_0_1"
+				(polyline
+					(pts
+						(xy -5.08 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.29 -0.76) (xy 2.03 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.03 -1.27)
+					(radius 0.51)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.03 -1.27)
+					(radius 0.51)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -1.27 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "parts:TYPE-C16PIN2MD"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4990,10 +5027,22 @@
 		(uuid "611a75f8-76f7-4101-abef-3722df5cf20d")
 	)
 	(junction
+		(at 35.56 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6abdcd20-862f-4124-bc59-48ee465713f4")
+	)
+	(junction
 		(at 154.94 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ad7371c-6199-46f0-9262-9c1432b87525")
+	)
+	(junction
+		(at 24.13 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bf9cb08-b5f8-4355-abe1-dcc39d558588")
 	)
 	(junction
 		(at 73.66 152.4)
@@ -5056,12 +5105,6 @@
 		(uuid "7828678d-136e-4b07-b6d5-1be3b1e7499c")
 	)
 	(junction
-		(at 73.66 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81db87bd-5982-440b-96e7-e65573e27de4")
-	)
-	(junction
 		(at 52.07 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5122,18 +5165,6 @@
 		(uuid "a7869e5c-8997-42f0-be56-b4ff4a91eb23")
 	)
 	(junction
-		(at 35.56 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7eba8fd-986c-441c-bbed-d6383114afcd")
-	)
-	(junction
-		(at 62.23 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a9e28179-38de-431b-baae-a8fc582e98bc")
-	)
-	(junction
 		(at 158.75 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5152,12 +5183,6 @@
 		(uuid "b7e8785b-06b1-49fc-b773-5978608f6a47")
 	)
 	(junction
-		(at 24.13 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bacdfab4-e3f7-48d5-9b4b-7e3ad3628b55")
-	)
-	(junction
 		(at 60.96 266.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5168,6 +5193,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bbdc418d-ed86-46c4-b633-4df3a89d0714")
+	)
+	(junction
+		(at 73.66 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc7902b6-cafb-4b28-a3b1-2ba5250cd866")
 	)
 	(junction
 		(at 273.05 177.8)
@@ -5240,6 +5271,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5bd4d62-a736-496e-8982-dd70af563912")
+	)
+	(junction
+		(at 62.23 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee4f9070-9db1-409b-8c41-b26e62261e56")
 	)
 	(junction
 		(at 52.07 41.91)
@@ -5375,7 +5412,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 165.1) (xy 73.66 167.64)
+			(xy 73.66 152.4) (xy 73.66 163.83)
 		)
 		(stroke
 			(width 0)
@@ -5675,6 +5712,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 173.99) (xy 24.13 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c9021fb-da7b-4af5-be9b-6ceb638a909d")
+	)
+	(wire
+		(pts
 			(xy 163.83 179.07) (xy 175.26 179.07)
 		)
 		(stroke
@@ -5682,16 +5729,6 @@
 			(type default)
 		)
 		(uuid "2cc72b6d-aab4-4067-bde8-918af01255e3")
-	)
-	(wire
-		(pts
-			(xy 35.56 165.1) (xy 35.56 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d169373-1603-4d29-9eb7-5acd0e528f98")
 	)
 	(wire
 		(pts
@@ -5725,6 +5762,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 163.83) (xy 55.88 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32fcebee-1693-4920-b5a1-ad5018beacdb")
+	)
+	(wire
+		(pts
 			(xy 158.75 179.07) (xy 161.29 179.07)
 		)
 		(stroke
@@ -5742,16 +5789,6 @@
 			(type default)
 		)
 		(uuid "37f957ec-a14d-4f1c-8103-1432638cb553")
-	)
-	(wire
-		(pts
-			(xy 73.66 152.4) (xy 73.66 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3867641c-1333-4143-a662-f4031a7b9be4")
 	)
 	(wire
 		(pts
@@ -5892,6 +5929,16 @@
 			(type default)
 		)
 		(uuid "4bc862c6-fb8f-4ab6-8acf-ec8c0781ddd3")
+	)
+	(wire
+		(pts
+			(xy 55.88 173.99) (xy 62.23 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ca4790a-75f7-403a-b1d5-f363089ba0df")
 	)
 	(wire
 		(pts
@@ -6175,6 +6222,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 163.83) (xy 55.88 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69aa447d-52f4-4de8-aafd-9d0dd1f7c2fc")
+	)
+	(wire
+		(pts
 			(xy 175.26 158.75) (xy 180.34 158.75)
 		)
 		(stroke
@@ -6325,16 +6382,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 165.1) (xy 25.4 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7968f97c-5c43-4ccb-90f4-adfe2b7f694e")
-	)
-	(wire
-		(pts
 			(xy 19.05 67.31) (xy 19.05 72.39)
 		)
 		(stroke
@@ -6372,6 +6419,16 @@
 			(type default)
 		)
 		(uuid "7c69f50e-0209-4848-874e-59143f53d4cd")
+	)
+	(wire
+		(pts
+			(xy 35.56 152.4) (xy 35.56 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c9d568a-d644-4281-9e9a-ca24112e3cd0")
 	)
 	(wire
 		(pts
@@ -6645,6 +6702,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 163.83) (xy 17.78 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93973605-3bdb-41e8-85e9-a13cf0589de9")
+	)
+	(wire
+		(pts
 			(xy 175.26 143.51) (xy 180.34 143.51)
 		)
 		(stroke
@@ -6722,16 +6789,6 @@
 			(type default)
 		)
 		(uuid "99c32560-7c5d-4127-ad5c-f3ea7e55ad7e")
-	)
-	(wire
-		(pts
-			(xy 35.56 152.4) (xy 35.56 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c460d56-4912-4874-b8e6-1bb258d7978c")
 	)
 	(wire
 		(pts
@@ -6895,16 +6952,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 173.99) (xy 62.23 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a990020e-6f75-4c11-bc90-e79cdfc56be8")
-	)
-	(wire
-		(pts
 			(xy 71.12 72.39) (xy 71.12 67.31)
 		)
 		(stroke
@@ -6975,6 +7022,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 163.83) (xy 17.78 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aec86b08-9fb8-4bc3-996a-7c3d0771d088")
+	)
+	(wire
+		(pts
 			(xy 143.51 82.55) (xy 143.51 85.09)
 		)
 		(stroke
@@ -7012,6 +7069,16 @@
 			(type default)
 		)
 		(uuid "b2a73930-9b4e-4502-91a5-34502fb9ed1a")
+	)
+	(wire
+		(pts
+			(xy 35.56 163.83) (xy 35.56 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b695c897-fca4-4ede-ba71-fcbd43ec1e1a")
 	)
 	(wire
 		(pts
@@ -7085,13 +7152,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 165.1) (xy 63.5 165.1)
+			(xy 73.66 163.83) (xy 73.66 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c48c8b5d-c001-49cf-abb0-64b4631bd39b")
+		(uuid "c4c947ba-9e30-444e-b331-83d5e0f5ed34")
 	)
 	(wire
 		(pts
@@ -7332,16 +7399,6 @@
 			(type default)
 		)
 		(uuid "e306445f-1c7e-4f2c-b183-6775b1433258")
-	)
-	(wire
-		(pts
-			(xy 24.13 173.99) (xy 24.13 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e59791db-5749-4905-a4ec-1e27ae41757f")
 	)
 	(wire
 		(pts
@@ -8805,8 +8862,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 68.58 165.1 0)
+		(lib_id "parts:TS-1088-AR02016")
+		(at 66.04 162.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8815,9 +8872,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "17a53192-c9ae-444b-a458-12eb2945ffe8")
+		(uuid "1e97ecb8-a904-4719-ba7b-5c9cb192ffe5")
 		(property "Reference" "SW2"
-			(at 68.58 157.48 0)
+			(at 66.04 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8827,7 +8884,7 @@
 			)
 		)
 		(property "Value" "Flash"
-			(at 68.58 160.02 0)
+			(at 66.04 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8836,8 +8893,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 68.58 160.02 0)
+		(property "Footprint" "parts:SW-SMD_L3.9-W3.0-P4.45"
+			(at 66.04 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8847,8 +8904,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 68.58 160.02 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XUNPU-TS-1088-AR02016_C720477.html"
+			(at 66.04 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8858,8 +8915,8 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 68.58 165.1 0)
+		(property "Description" ""
+			(at 66.04 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8869,11 +8926,44 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "0d955edb-9509-4f6f-8d70-e6517566be0c")
+		(property "Manufacturer" "XUNPU(讯普)"
+			(at 66.04 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TS-1088-AR02016"
+			(at 66.04 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C720477"
+			(at 66.04 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "5a2e5ef9-f2e6-4831-86fe-1c99b61b010a")
+			(uuid "b66bfc14-024c-4643-bf93-1e594a93392d")
+		)
+		(pin "1"
+			(uuid "e3d338c4-a832-4e3f-a822-d1159cc3a127")
 		)
 		(instances
 			(project "ummon"
@@ -10926,6 +11016,119 @@
 			(project "ummon"
 				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "parts:TS-1088-AR02016")
+		(at 27.94 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ff6889a-183a-497b-abb7-3356e195712d")
+		(property "Reference" "SW1"
+			(at 27.94 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Reboot"
+			(at 27.94 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "parts:SW-SMD_L3.9-W3.0-P4.45"
+			(at 27.94 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XUNPU-TS-1088-AR02016_C720477.html"
+			(at 27.94 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XUNPU(讯普)"
+			(at 27.94 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TS-1088-AR02016"
+			(at 27.94 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C720477"
+			(at 27.94 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dec86a6a-bb38-4ac8-ab85-15d453cc4d88")
+		)
+		(pin "1"
+			(uuid "2cca0eaa-62cb-4168-ae67-8fb4e1bd21de")
+		)
+		(instances
+			(project "ummon"
+				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -13904,86 +14107,6 @@
 			(project "ummon"
 				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 30.48 165.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3ce5cd0-4987-441b-a4f5-49dd917a9102")
-		(property "Reference" "SW1"
-			(at 30.48 157.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Reboot"
-			(at 30.48 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 30.48 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "af21cf66-4a5f-4e99-9a0c-4609c7172b8e")
-		)
-		(pin "2"
-			(uuid "18923e75-1210-4d74-b73e-99c401ce14e3")
-		)
-		(instances
-			(project "ummon"
-				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
