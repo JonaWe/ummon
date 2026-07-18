@@ -678,7 +678,7 @@
         "uuid": "535d19c6-6731-456b-b7fb-ac6bb0b86499"
       }
     ],
-    "used_designators": "SW3,R12-13,R15-16,LED2-3,#PWR35-37,#PWR51",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
