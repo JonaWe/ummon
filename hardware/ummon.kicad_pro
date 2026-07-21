@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -522,10 +522,13 @@
         "tuning_profile": ""
       },
       {
-        "name": "Power Boost",
+        "diff_pair_gap": 0.15,
+        "diff_pair_width": 0.3,
+        "name": "USB_DATA",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
         "tuning_profile": ""
       }
     ],
@@ -550,6 +553,10 @@
       {
         "netclass": "Power",
         "pattern": "SGP41_VDD"
+      },
+      {
+        "netclass": "USB_DATA",
+        "pattern": "/USB_D*"
       }
     ]
   },
@@ -711,7 +718,7 @@
         "uuid": "535d19c6-6731-456b-b7fb-ac6bb0b86499"
       }
     ],
-    "used_designators": "H6,#PWR58",
+    "used_designators": "U6",
     "variants": []
   },
   "sheets": [

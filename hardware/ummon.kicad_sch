@@ -14010,7 +14010,7 @@
 				)
 			)
 		)
-		(property "Footprint" "parts:WIRELM-SMD_ESP32-C6-WROOM-1"
+		(property "Footprint" "PCM_Espressif:ESP32-C6-WROOM-1"
 			(at 160.02 179.07 0)
 			(hide yes)
 			(show_name no)
