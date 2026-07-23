@@ -1551,13 +1551,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom no)
@@ -1565,7 +1561,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "H"
-				(at 0 6.35 0)
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1574,8 +1570,8 @@
 					)
 				)
 			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1606,7 +1602,7 @@
 					)
 				)
 			)
-			(property "Description" "Mounting Hole with connection"
+			(property "Description" "Mounting Hole without connection"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1628,7 +1624,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
+			(property "ki_fp_filters" "MountingHole*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1639,9 +1635,9 @@
 					)
 				)
 			)
-			(symbol "MountingHole_Pad_0_1"
+			(symbol "MountingHole_0_1"
 				(circle
-					(center 0 1.27)
+					(center 0 0)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -1649,26 +1645,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -10836,7 +10812,17 @@
 		)
 		(uuid "fff6c7f3-c797-440a-a09b-a17c1126d2cb")
 	)
-	(label "EPD_RST"
+	(label "EPD_BUSY"
+		(at 191.77 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "09d13de6-96be-435b-8248-2b5293c631c4")
+	)
+	(label "EPD_SCK"
 		(at 191.77 158.75 180)
 		(effects
 			(font
@@ -10844,7 +10830,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "11a307a7-18cd-4ba0-96ac-7b0747b3bfd6")
+		(uuid "157a226e-591c-40de-b9e5-7cc0cc381e9f")
 	)
 	(label "ESD Protection"
 		(at 31.75 93.98 0)
@@ -10918,16 +10904,6 @@
 		)
 		(uuid "261d9707-2260-488b-9079-bd14c52cf8cf")
 	)
-	(label "EPD_BUSY"
-		(at 191.77 156.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "28b7829b-280d-422b-a038-630e31c017de")
-	)
 	(label "Voltage Regulators"
 		(at 138.43 24.13 0)
 		(effects
@@ -10938,26 +10914,6 @@
 			(justify left bottom)
 		)
 		(uuid "29a9189a-ee55-4d56-bc9f-fc56a32b0f90")
-	)
-	(label "EPD_DC"
-		(at 191.77 161.29 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2d551197-aeb3-4cea-aa43-43d995a517a4")
-	)
-	(label "EPD_SCK"
-		(at 191.77 166.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2eeb7c6d-7d7f-4d5d-bfb0-f2cc36d6b6da")
 	)
 	(label "EPD_BUSY"
 		(at 326.39 171.45 0)
@@ -11060,6 +11016,16 @@
 		)
 		(uuid "49e9190b-75c8-46a6-92ec-a6de62716e13")
 	)
+	(label "EPD_DIN"
+		(at 191.77 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4c655f10-e14e-41c7-befb-bf7307fe00aa")
+	)
 	(label "EPD_GDR"
 		(at 370.84 38.1 0)
 		(effects
@@ -11121,16 +11087,6 @@
 			(justify left bottom)
 		)
 		(uuid "5ce0f33d-80de-4b3a-a167-4a8955b1ddc2")
-	)
-	(label "EPD_CS"
-		(at 191.77 163.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5f776fb8-d838-4d87-aa40-c2217cab7128")
 	)
 	(label "H_PRESENCE"
 		(at 133.35 158.75 180)
@@ -11285,16 +11241,6 @@
 			(justify left bottom)
 		)
 		(uuid "8b30b638-f102-40f1-baf9-018b7b70eee6")
-	)
-	(label "EPD_DIN"
-		(at 191.77 168.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8e709f2c-ba3e-4ac0-9467-4ea63c421455")
 	)
 	(label "EPD_BS"
 		(at 370.84 53.34 0)
@@ -11571,6 +11517,16 @@
 		)
 		(uuid "d2bcb81c-b187-4f0d-8cef-c201702617b4")
 	)
+	(label "EPD_CS"
+		(at 191.77 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d3549172-dad6-4897-acda-f68e3e5aeb8f")
+	)
 	(label "Headers"
 		(at 349.25 134.62 0)
 		(effects
@@ -11602,6 +11558,16 @@
 			(justify left bottom)
 		)
 		(uuid "db02ebf7-747e-44e6-bdb2-70edcc13e4b4")
+	)
+	(label "EPD_DC"
+		(at 191.77 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dc9093a1-7afc-46da-8bfe-9218164bdc4e")
 	)
 	(label "IO Debugging"
 		(at 344.17 209.55 0)
@@ -11755,6 +11721,16 @@
 			(justify right bottom)
 		)
 		(uuid "f75fb423-0b7b-4189-a1e7-a5605a84d4ce")
+	)
+	(label "EPD_RST"
+		(at 191.77 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f80c7ff1-f890-45a9-bf7e-09f65c2f15bb")
 	)
 	(label "RX"
 		(at 360.68 180.34 180)
@@ -12584,162 +12560,6 @@
 			(project "ummon"
 				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 255.27 175.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "107ee599-c341-488c-8764-ea875c6848c6")
-		(property "Reference" "#PWR056"
-			(at 255.27 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 255.27 180.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 255.27 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f47edf62-ca40-4bf8-9ec3-c2e509b05f5e")
-		)
-		(instances
-			(project "ummon"
-				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 228.6 175.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15333ea8-4d64-4d44-83a3-29dd5ab5785b")
-		(property "Reference" "#PWR053"
-			(at 228.6 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 228.6 180.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dcb7bd07-7306-421a-a5b9-6285fc1fe4a7")
-		)
-		(instances
-			(project "ummon"
-				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
-					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -14992,6 +14812,82 @@
 			(project "ummon"
 				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 260.35 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "440d358f-bd3e-44d8-a148-eb68510e5be2")
+		(property "Reference" "H4"
+			(at 262.89 167.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 262.89 170.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 260.35 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 260.35 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ummon"
+				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -17651,6 +17547,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 237.49 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7aa4fd82-4a75-4767-b70f-d0680f0eb150")
+		(property "Reference" "H3"
+			(at 240.03 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 240.03 161.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 237.49 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 237.49 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ummon"
+				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 185.42 133.35 0)
 		(unit 1)
@@ -19684,85 +19656,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 255.27 172.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9b849e4-1372-4ef8-bad1-a82671021716")
-		(property "Reference" "H4"
-			(at 257.81 170.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 257.81 172.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 255.27 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 255.27 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "918cc5ef-b4e1-45bd-bb5a-b551f7c53be0")
-		)
-		(instances
-			(project "ummon"
-				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 81.28 93.98 0)
 		(unit 1)
@@ -19835,85 +19728,6 @@
 			(project "ummon"
 				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 255.27 158.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "adb03cbb-66b3-450a-b999-bb7f95710251")
-		(property "Reference" "H2"
-			(at 257.81 156.2099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 257.81 158.7499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 255.27 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 255.27 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e744ddd2-4872-46ba-bab7-6e7b51d2b8fb")
-		)
-		(instances
-			(project "ummon"
-				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -20196,84 +20010,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 228.6 161.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b512d8c5-815b-42a8-b349-b2951ad9ca98")
-		(property "Reference" "#PWR051"
-			(at 228.6 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 228.6 166.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7ba88328-1cbc-4f0c-8538-20fb0134b665")
-		)
-		(instances
-			(project "ummon"
-				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 213.36 227.33 0)
 		(unit 1)
@@ -20466,84 +20202,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 228.6 187.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7671c45-21e8-4cdb-ac2b-aa460fc66c57")
-		(property "Reference" "#PWR057"
-			(at 228.6 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 228.6 193.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b98bedbd-8888-4f43-9d24-bedfaf537bd7")
-		)
-		(instances
-			(project "ummon"
-				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 270.51 59.69 180)
 		(unit 1)
@@ -20631,6 +20289,82 @@
 			(project "ummon"
 				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 260.35 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb223313-0eb9-44fe-8996-00ccd963eb1a")
+		(property "Reference" "H1"
+			(at 262.89 185.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 262.89 187.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 260.35 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 260.35 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ummon"
+				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -21434,6 +21168,82 @@
 			(project "ummon"
 				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 236.22 176.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7d5b3dd-c3e4-4877-8581-e2893e94d30d")
+		(property "Reference" "H2"
+			(at 238.76 175.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 238.76 177.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 236.22 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 236.22 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ummon"
+				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -23150,85 +22960,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 228.6 158.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec0d618f-7cc1-44b4-85b2-7a2ccf91383a")
-		(property "Reference" "H1"
-			(at 231.14 156.2099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 231.14 158.7499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 228.6 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 228.6 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0ad1bdb8-7857-4a33-b567-6e7fc5b308f6")
-		)
-		(instances
-			(project "ummon"
-				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 394.97 184.15 0)
 		(unit 1)
@@ -23739,85 +23470,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 228.6 185.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f30652a7-bfbb-4c46-875c-2891ed06330a")
-		(property "Reference" "H5"
-			(at 231.14 182.8799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 231.14 185.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 228.6 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 228.6 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a4071e30-2b96-4ed8-a57a-df328e963730")
-		)
-		(instances
-			(project "ummon"
-				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
-					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 284.48 153.67 90)
 		(unit 1)
@@ -24178,84 +23830,6 @@
 			(project "ummon"
 				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 255.27 161.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8cd37d4-f8a6-4288-a778-da532b50b6c7")
-		(property "Reference" "#PWR052"
-			(at 255.27 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 255.27 166.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 255.27 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7fc9bf80-ea3d-4275-ac83-e3a2d0df0e8e")
-		)
-		(instances
-			(project "ummon"
-				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
-					(reference "#PWR052")
 					(unit 1)
 				)
 			)
