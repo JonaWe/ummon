@@ -513,10 +513,19 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.25,
+        "name": "EDP Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.35,
+        "tuning_profile": ""
+      },
+      {
         "clearance": 0.2,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
         "tuning_profile": ""
@@ -526,7 +535,7 @@
         "diff_pair_width": 0.3,
         "name": "USB_DATA",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "tuning_profile": ""
@@ -557,6 +566,18 @@
       {
         "netclass": "USB_DATA",
         "pattern": "/USB_D*"
+      },
+      {
+        "netclass": "EDP Power",
+        "pattern": "/EPD_PREVG*"
+      },
+      {
+        "netclass": "EDP Power",
+        "pattern": "/EPD_GDR"
+      },
+      {
+        "netclass": "EDP Power",
+        "pattern": "/EPD_RESE"
       }
     ]
   },
@@ -718,7 +739,7 @@
         "uuid": "535d19c6-6731-456b-b7fb-ac6bb0b86499"
       }
     ],
-    "used_designators": "U6",
+    "used_designators": "L2,U6",
     "variants": []
   },
   "sheets": [
