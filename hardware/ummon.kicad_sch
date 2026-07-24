@@ -6907,6 +6907,18 @@
 		(uuid "07711f39-bec9-423c-9e51-39e350dc7f1a")
 	)
 	(rectangle
+		(start 220.472 127.254)
+		(end 299.974 168.91)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0859b4ea-3b36-4f44-bd2c-9c27199f8603")
+	)
+	(rectangle
 		(start 98.298 104.394)
 		(end 220.472 197.358)
 		(stroke
@@ -6955,7 +6967,7 @@
 		(uuid "68cb780a-566a-4a90-8d8c-43bd65e02fb5")
 	)
 	(rectangle
-		(start 220.472 127.254)
+		(start 220.472 168.91)
 		(end 299.974 197.358)
 		(stroke
 			(width 0)
@@ -7387,7 +7399,7 @@
 		(uuid "bf994db6-44e2-4bab-b4da-33deb8be3039")
 	)
 	(junction
-		(at 288.29 144.78)
+		(at 267.97 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfae9f42-03a9-4986-a507-abac976ae139")
@@ -7954,7 +7966,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 138.43) (xy 288.29 144.78)
+			(xy 267.97 144.78) (xy 267.97 151.13)
 		)
 		(stroke
 			(width 0)
@@ -8214,7 +8226,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 144.78) (xy 288.29 144.78)
+			(xy 266.7 151.13) (xy 267.97 151.13)
 		)
 		(stroke
 			(width 0)
@@ -8734,7 +8746,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 153.67) (xy 287.02 153.67)
+			(xy 267.97 160.02) (xy 266.7 160.02)
 		)
 		(stroke
 			(width 0)
@@ -9224,7 +9236,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 153.67) (xy 281.94 153.67)
+			(xy 251.46 160.02) (xy 261.62 160.02)
 		)
 		(stroke
 			(width 0)
@@ -9704,7 +9716,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 144.78) (xy 288.29 153.67)
+			(xy 267.97 151.13) (xy 267.97 160.02)
 		)
 		(stroke
 			(width 0)
@@ -10654,7 +10666,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 144.78) (xy 281.94 144.78)
+			(xy 251.46 151.13) (xy 261.62 151.13)
 		)
 		(stroke
 			(width 0)
@@ -10865,7 +10877,7 @@
 		(uuid "19ee434e-1753-4797-ac3a-6879166dbead")
 	)
 	(label "I2C_SDA"
-		(at 271.78 144.78 0)
+		(at 251.46 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11057,17 +11069,6 @@
 		)
 		(uuid "54eba11d-ddca-4035-aefc-d1332343640d")
 	)
-	(label "Reference had 10µF"
-		(at 121.92 74.93 0)
-		(effects
-			(font
-				(size 0.8382 0.8382)
-				(color 255 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "56e86977-3da6-468b-9195-7e35a3bb16e6")
-	)
 	(label "EPD_PREVGL"
 		(at 248.92 97.79 0)
 		(effects
@@ -11087,6 +11088,17 @@
 			(justify left bottom)
 		)
 		(uuid "5ce0f33d-80de-4b3a-a167-4a8955b1ddc2")
+	)
+	(label "Mounting"
+		(at 251.46 175.26 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 0 0 255 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f64063c-db18-4097-aa31-f478160d0f35")
 	)
 	(label "H_PRESENCE"
 		(at 133.35 158.75 180)
@@ -11293,7 +11305,7 @@
 		(uuid "9b4afe9a-8d48-4244-81db-757ceeee6069")
 	)
 	(label "I2C_SCL"
-		(at 271.78 153.67 0)
+		(at 251.46 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14819,7 +14831,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 260.35 168.91 0)
+		(at 251.46 189.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14830,7 +14842,7 @@
 		(fields_autoplaced yes)
 		(uuid "440d358f-bd3e-44d8-a148-eb68510e5be2")
 		(property "Reference" "H4"
-			(at 262.89 167.6399 0)
+			(at 254 187.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14841,7 +14853,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 262.89 170.1799 0)
+			(at 254 190.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14852,7 +14864,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 260.35 168.91 0)
+			(at 251.46 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14863,7 +14875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 168.91 0)
+			(at 251.46 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14874,7 +14886,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 260.35 168.91 0)
+			(at 251.46 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17024,7 +17036,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 284.48 144.78 90)
+		(at 264.16 151.13 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17035,7 +17047,7 @@
 		(fields_autoplaced yes)
 		(uuid "722b000e-5cdf-404b-8d0c-095eb61a6d8a")
 		(property "Reference" "R7"
-			(at 284.48 139.7 90)
+			(at 264.16 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17045,7 +17057,7 @@
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 284.48 142.24 90)
+			(at 264.16 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17055,7 +17067,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 284.48 144.78 0)
+			(at 264.16 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17066,7 +17078,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 284.48 144.78 0)
+			(at 264.16 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17077,7 +17089,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 284.48 144.78 0)
+			(at 264.16 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17088,7 +17100,7 @@
 			)
 		)
 		(property "LCSC Part" "C17673"
-			(at 284.48 144.78 90)
+			(at 264.16 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17548,7 +17560,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 237.49 160.02 0)
+		(at 229.87 189.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17559,7 +17571,7 @@
 		(fields_autoplaced yes)
 		(uuid "7aa4fd82-4a75-4767-b70f-d0680f0eb150")
 		(property "Reference" "H3"
-			(at 240.03 158.7499 0)
+			(at 232.41 187.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17570,7 +17582,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 240.03 161.2899 0)
+			(at 232.41 190.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17581,7 +17593,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 237.49 160.02 0)
+			(at 229.87 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17592,7 +17604,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 160.02 0)
+			(at 229.87 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17603,7 +17615,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 237.49 160.02 0)
+			(at 229.87 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20296,7 +20308,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 260.35 186.69 0)
+		(at 229.87 181.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20307,7 +20319,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb223313-0eb9-44fe-8996-00ccd963eb1a")
 		(property "Reference" "H1"
-			(at 262.89 185.4199 0)
+			(at 232.41 180.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20318,7 +20330,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 262.89 187.9599 0)
+			(at 232.41 182.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20329,7 +20341,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 260.35 186.69 0)
+			(at 229.87 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20340,7 +20352,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 186.69 0)
+			(at 229.87 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20351,7 +20363,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 260.35 186.69 0)
+			(at 229.87 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21175,7 +21187,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 236.22 176.53 0)
+		(at 251.46 181.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21186,7 +21198,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7d5b3dd-c3e4-4877-8581-e2893e94d30d")
 		(property "Reference" "H2"
-			(at 238.76 175.2599 0)
+			(at 254 180.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21197,7 +21209,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 238.76 177.7999 0)
+			(at 254 182.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21208,7 +21220,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 236.22 176.53 0)
+			(at 251.46 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21219,7 +21231,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 176.53 0)
+			(at 251.46 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21230,7 +21242,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 236.22 176.53 0)
+			(at 251.46 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23471,7 +23483,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 284.48 153.67 90)
+		(at 264.16 160.02 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23482,7 +23494,7 @@
 		(fields_autoplaced yes)
 		(uuid "f38c3dfb-0f90-4b4a-b2f8-afea24a727e3")
 		(property "Reference" "R6"
-			(at 284.48 148.59 90)
+			(at 264.16 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23492,7 +23504,7 @@
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 284.48 151.13 90)
+			(at 264.16 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23502,7 +23514,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 284.48 153.67 0)
+			(at 264.16 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23513,7 +23525,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 284.48 153.67 0)
+			(at 264.16 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23524,7 +23536,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 284.48 153.67 0)
+			(at 264.16 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23535,7 +23547,7 @@
 			)
 		)
 		(property "LCSC Part" "C17673"
-			(at 284.48 153.67 90)
+			(at 264.16 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23934,7 +23946,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 288.29 138.43 0)
+		(at 267.97 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23945,7 +23957,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb0ef123-7f0c-4bfc-83b9-1c4c27e81840")
 		(property "Reference" "#PWR014"
-			(at 288.29 142.24 0)
+			(at 267.97 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23956,7 +23968,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 290.83 137.1599 0)
+			(at 270.51 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23967,7 +23979,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 138.43 0)
+			(at 267.97 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23978,7 +23990,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 138.43 0)
+			(at 267.97 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23989,7 +24001,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 288.29 138.43 0)
+			(at 267.97 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
