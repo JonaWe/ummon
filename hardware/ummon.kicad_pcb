@@ -11954,14 +11954,6 @@
 		(path "/0ccdc2fb-033c-4581-8a7e-4a5332af63eb")
 		(sheetname "/")
 		(sheetfile "ummon.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "9" "10" "7" "6" "20" "19" "21" "18" "17" "16" "15" "14" "13" "12"
-					"11" "8" "5" "4" "3" "2" "1"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12127,6 +12119,30 @@
 					(thickness 0.15)
 				)
 			)
+		)
+		(pad "" smd rect
+			(at -1.2 -1.2 90)
+			(size 2 2)
+			(layers "F.Paste")
+			(uuid "de6b1f7c-5132-4bc3-ae20-de12b42ff196")
+		)
+		(pad "" smd rect
+			(at -1.2 1.2 90)
+			(size 2 2)
+			(layers "F.Paste")
+			(uuid "1ca4ca96-b4d9-4b59-b275-d7d112660635")
+		)
+		(pad "" smd rect
+			(at 1.2 -1.2 90)
+			(size 2 2)
+			(layers "F.Paste")
+			(uuid "d9d5f1aa-b062-47b3-9a72-3f2a2870810d")
+		)
+		(pad "" smd rect
+			(at 1.2 1.2 90)
+			(size 2 2)
+			(layers "F.Paste")
+			(uuid "768bc4b7-cf78-476e-8102-6e82273102f9")
 		)
 		(pad "1" smd rect
 			(at -4.35 -2.5 180)
@@ -12311,7 +12327,7 @@
 		(pad "21" smd rect
 			(at 0 0 90)
 			(size 4.8 4.8)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(layers "F.Cu" "F.Mask")
 			(net "GND")
 			(pinfunction "GND_21")
 			(pintype "unspecified")
