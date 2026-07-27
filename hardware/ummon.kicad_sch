@@ -1003,6 +1003,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -7991,6 +8114,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 237.49) (xy 325.12 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1512c1c3-1b18-4efd-b5e5-eb03cafad026")
+	)
+	(wire
+		(pts
 			(xy 394.97 180.34) (xy 397.51 180.34)
 		)
 		(stroke
@@ -8038,6 +8171,16 @@
 			(type default)
 		)
 		(uuid "186d149c-098a-47ad-9ca5-7ae6bbde35e8")
+	)
+	(wire
+		(pts
+			(xy 307.34 237.49) (xy 320.04 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18b5740a-b14f-4458-b87b-f82512d5c334")
 	)
 	(wire
 		(pts
@@ -8491,6 +8634,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 247.65) (xy 320.04 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c0ad215-0038-409e-bb0c-db6cd0338682")
+	)
+	(wire
+		(pts
 			(xy 173.99 55.88) (xy 191.77 55.88)
 		)
 		(stroke
@@ -8538,6 +8691,16 @@
 			(type default)
 		)
 		(uuid "3e4b84a9-8b2f-4fdf-9de4-5ab74d83d0e2")
+	)
+	(wire
+		(pts
+			(xy 307.34 217.17) (xy 320.04 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f1bd858-b50d-43d2-b1ad-c01c75367092")
 	)
 	(wire
 		(pts
@@ -10081,6 +10244,26 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 214.63) (xy 307.34 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aceb6a4f-d227-438b-b6f2-f252fa712bb5")
+	)
+	(wire
+		(pts
+			(xy 307.34 224.79) (xy 307.34 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adaf8fcb-8eee-463a-8673-78efed39ef0c")
+	)
+	(wire
+		(pts
 			(xy 251.46 246.38) (xy 251.46 250.19)
 		)
 		(stroke
@@ -10188,6 +10371,26 @@
 			(type default)
 		)
 		(uuid "b2ba5d42-b670-4113-9fde-fc75aeca3572")
+	)
+	(wire
+		(pts
+			(xy 307.34 245.11) (xy 307.34 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4b93ffa-1e72-4b3f-828a-c9c4a21effaa")
+	)
+	(wire
+		(pts
+			(xy 325.12 217.17) (xy 337.82 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4e17dc9-2436-4e7e-9a41-001d0b18f35c")
 	)
 	(wire
 		(pts
@@ -10471,6 +10674,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 240.03) (xy 337.82 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb687cfa-ada3-4dc2-968c-3ca07c8ee6b7")
+	)
+	(wire
+		(pts
 			(xy 251.46 246.38) (xy 260.35 246.38)
 		)
 		(stroke
@@ -10561,6 +10774,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 234.95) (xy 307.34 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3abb545-3ca8-498d-91d5-c1a958fe2f46")
+	)
+	(wire
+		(pts
 			(xy 262.89 58.42) (xy 262.89 68.58)
 		)
 		(stroke
@@ -10611,6 +10834,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 226.06) (xy 325.12 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9c5d7c8-af5a-472b-bfe7-b2b01f32f971")
+	)
+	(wire
+		(pts
 			(xy 60.96 91.44) (xy 58.42 91.44)
 		)
 		(stroke
@@ -10628,6 +10861,16 @@
 			(type default)
 		)
 		(uuid "da2db93d-5d74-4f97-ad87-d78c9c24c2e8")
+	)
+	(wire
+		(pts
+			(xy 325.12 228.6) (xy 337.82 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da4c8fc7-142b-49be-93c9-9d4343714bcc")
 	)
 	(wire
 		(pts
@@ -10811,6 +11054,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 214.63) (xy 325.12 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f041a262-8ea2-4561-a8ca-3280eb954fd1")
+	)
+	(wire
+		(pts
 			(xy 374.65 45.72) (xy 382.27 45.72)
 		)
 		(stroke
@@ -10981,6 +11234,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 227.33) (xy 320.04 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd0cc452-8bb8-4d8d-8b25-c196122b2c6a")
+	)
+	(wire
+		(pts
 			(xy 46.99 163.83) (xy 46.99 167.64)
 		)
 		(stroke
@@ -11029,6 +11292,16 @@
 		)
 		(uuid "fff6c7f3-c797-440a-a09b-a17c1126d2cb")
 	)
+	(label "EPD_PREVGL"
+		(at 337.82 240.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "03237330-8b19-42d9-9f9c-16bc90cd1be7")
+	)
 	(label "EPD_BUSY"
 		(at 191.77 168.91 180)
 		(effects
@@ -11038,6 +11311,16 @@
 			(justify right bottom)
 		)
 		(uuid "09d13de6-96be-435b-8248-2b5293c631c4")
+	)
+	(label "EPD_VGL"
+		(at 236.22 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14e5091e-647f-424d-a3e0-5ddba41931b6")
 	)
 	(label "EPD_SCK"
 		(at 191.77 158.75 180)
@@ -11059,6 +11342,16 @@
 		)
 		(uuid "16bde6aa-2651-4bdf-bf1a-e2c4a15e650a")
 	)
+	(label "EPD_RESE"
+		(at 320.04 237.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "18b3e983-4c5b-40af-9f2d-e77586baaccd")
+	)
 	(label "VOC{slash}NOx Sensor"
 		(at 223.52 208.28 0)
 		(effects
@@ -11069,6 +11362,16 @@
 			(justify left bottom)
 		)
 		(uuid "19ee434e-1753-4797-ac3a-6879166dbead")
+	)
+	(label "EPD_PREVGH"
+		(at 320.04 247.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1a835b42-0e22-45c7-87db-f6eb1ecea8f5")
 	)
 	(label "I2C_SDA"
 		(at 251.46 151.13 0)
@@ -11182,6 +11485,16 @@
 		)
 		(uuid "3f11391c-d3b4-4286-92b8-50de501dd396")
 	)
+	(label "GPIO9"
+		(at 320.04 227.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3f564236-c2d8-4f30-bd7c-5337ecb02f9a")
+	)
 	(label "USB_D+"
 		(at 107.95 54.61 180)
 		(effects
@@ -11252,6 +11565,16 @@
 			(justify left bottom)
 		)
 		(uuid "54ab4b15-0088-42a9-956b-596b612d79d7")
+	)
+	(label "EPD_VGL"
+		(at 337.82 228.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "562df76b-62f4-4365-9f96-35556d577149")
 	)
 	(label "EPD_PREVGL"
 		(at 248.92 97.79 0)
@@ -11795,6 +12118,16 @@
 		)
 		(uuid "d8ac8e47-8c94-44bc-8426-d60049263681")
 	)
+	(label "EN"
+		(at 320.04 217.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "da4c3913-5110-4103-a45c-ce8a92fabaed")
+	)
 	(label "EPD_BS"
 		(at 309.88 62.23 0)
 		(effects
@@ -11815,7 +12148,7 @@
 		)
 		(uuid "dc9093a1-7afc-46da-8bfe-9218164bdc4e")
 	)
-	(label "IO Debugging"
+	(label "IO{slash}Debugging"
 		(at 344.17 209.55 0)
 		(effects
 			(font
@@ -11866,6 +12199,16 @@
 		)
 		(uuid "e20c4e10-026e-4bb2-8477-28639762c472")
 	)
+	(label "EPD_VGH"
+		(at 337.82 217.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e27a4541-9e53-47f8-9feb-b8cbdd3abf1d")
+	)
 	(label "I2C Pullups"
 		(at 250.19 134.62 0)
 		(effects
@@ -11876,6 +12219,16 @@
 			(justify left bottom)
 		)
 		(uuid "e4c2f907-ef17-433b-870a-4f72e991a894")
+	)
+	(label "EPD_VGH"
+		(at 264.16 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5ca77d2-9272-453b-bb4a-5ccf12af7170")
 	)
 	(label "GPIO9"
 		(at 67.31 130.81 0)
@@ -13577,6 +13930,85 @@
 			(project "ummon"
 				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 325.12 237.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24e02fc1-021e-43a9-8da6-02d694f98f63")
+		(property "Reference" "TP5"
+			(at 327.66 232.9179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 327.66 235.4579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 330.2 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 325.12 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1bf04fbe-ead6-42c8-a766-25bc476beb86")
+		)
+		(instances
+			(project "ummon"
+				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -16510,6 +16942,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 307.34 214.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56613ca9-6537-4924-bfba-1f3b56aa813b")
+		(property "Reference" "TP1"
+			(at 309.88 210.0579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 309.88 212.5979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 312.42 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 307.34 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a49c5115-27b0-468e-b87a-8ad0924ee09e")
+		)
+		(instances
+			(project "ummon"
+				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 397.51 180.34 0)
 		(unit 1)
@@ -17021,6 +17532,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 345.44 219.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63efae7f-2a68-480e-a189-b8c81fbccb7d")
+		(property "Reference" "TP8"
+			(at 347.98 215.1379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 347.98 217.6779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 350.52 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 350.52 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 345.44 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd1acc5e-9092-4363-b6b9-6401e9efa43a")
+		)
+		(instances
+			(project "ummon"
+				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 350.52 86.36 90)
 		(unit 1)
@@ -17105,6 +17695,243 @@
 			(project "ummon"
 				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 307.34 245.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6991abc3-59a3-4bd3-980a-5d426329aa21")
+		(property "Reference" "TP4"
+			(at 309.88 240.5379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 309.88 243.0779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 312.42 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 307.34 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e3a6b15-b5a1-4997-ba14-01fca1527175")
+		)
+		(instances
+			(project "ummon"
+				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 307.34 234.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a0830bd-33de-4429-9880-bee01d8b3537")
+		(property "Reference" "TP3"
+			(at 309.88 230.3779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 309.88 232.9179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 312.42 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 307.34 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6447e7b3-fc97-49c4-b32d-ad8de9872537")
+		)
+		(instances
+			(project "ummon"
+				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 307.34 224.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b973e61-bc9a-43db-941a-301fea865dfc")
+		(property "Reference" "TP2"
+			(at 309.88 220.2179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 309.88 222.7579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 312.42 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 307.34 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8fbaab01-d084-4fb8-acd9-eda057fd89e0")
+		)
+		(instances
+			(project "ummon"
+				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -17281,6 +18108,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 345.44 245.11 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70d82594-0a98-41b1-ac3e-00f30cb0827f")
+		(property "Reference" "#PWR057"
+			(at 345.44 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 345.44 250.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 345.44 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e46c814-6a67-467c-ba58-24b2332870de")
+		)
+		(instances
+			(project "ummon"
+				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 394.97 153.67 0)
 		(unit 1)
@@ -17368,6 +18273,85 @@
 			(project "ummon"
 				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 325.12 214.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "717fc8d9-2f7d-4243-b465-0d54f37b8885")
+		(property "Reference" "TP7"
+			(at 327.66 210.0579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 327.66 212.5979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 330.2 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 325.12 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0f582093-bcab-4731-8c28-7b827051a561")
+		)
+		(instances
+			(project "ummon"
+				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -18204,6 +19188,84 @@
 			(project "ummon"
 				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 345.44 232.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80e9e2e2-5fd8-40b5-b9a3-1159fe1d5901")
+		(property "Reference" "#PWR056"
+			(at 345.44 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 345.44 237.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 345.44 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "841679ca-532b-4adf-9d6e-871c67f5ecfc")
+		)
+		(instances
+			(project "ummon"
+				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -19360,6 +20422,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 345.44 232.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9917238b-d926-49a5-a864-55d1e7ae8405")
+		(property "Reference" "TP9"
+			(at 347.98 227.8379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 347.98 230.3779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 350.52 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 350.52 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 345.44 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c3215ffb-511a-4695-9cd5-34f26c1b40dd")
+		)
+		(instances
+			(project "ummon"
+				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 303.53 54.61 0)
 		(unit 1)
@@ -20157,6 +21298,85 @@
 			(project "ummon"
 				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 325.12 226.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abac4c39-2489-4788-9964-8df1ff848dea")
+		(property "Reference" "TP6"
+			(at 327.66 221.4879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 327.66 224.0279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 330.2 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 325.12 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c458b12-8940-4539-9907-4d9e415757a7")
+		)
+		(instances
+			(project "ummon"
+				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -22161,6 +23381,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 345.44 219.71 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d42e313e-335a-4bb7-b03c-2da0b016440b")
+		(property "Reference" "#PWR053"
+			(at 345.44 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 345.44 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 345.44 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "57b298df-0689-4179-90a8-2d245fca07c2")
+		)
+		(instances
+			(project "ummon"
+				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 55.88 91.44 90)
 		(unit 1)
@@ -23590,6 +24888,85 @@
 			(project "ummon"
 				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 345.44 245.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef9f1e19-967c-4b55-bd01-342a733f5c54")
+		(property "Reference" "TP10"
+			(at 347.98 240.5379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 347.98 243.0779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 350.52 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 350.52 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 345.44 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "72a91454-9660-47c2-af38-a89880645627")
+		)
+		(instances
+			(project "ummon"
+				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
