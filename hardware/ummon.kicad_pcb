@@ -17482,12 +17482,6 @@
 		(path "/0202df0e-b232-4909-9cfd-1e2c900a4549")
 		(sheetname "/")
 		(sheetfile "ummon.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "7" "6" "5" "4")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17555,10 +17549,10 @@
 		)
 		(fp_line
 			(start 1.22 -1.22)
-			(end -1.22 1.22)
+			(end -1.22 -1.22)
 			(stroke
 				(width 0.05)
-				(type solid)
+				(type default)
 			)
 			(layer "F.CrtYd")
 			(uuid "32390183-a16e-459c-96ba-7bde6ce09c66")
@@ -17572,6 +17566,16 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "c87af0af-1f54-46a9-9801-85e9aab94736")
+		)
+		(fp_line
+			(start -1.22 -1.22)
+			(end -1.22 1.22)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "06f64517-a3f3-49f6-b798-544cb191c3bf")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -0.4 0)
