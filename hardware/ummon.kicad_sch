@@ -12105,6 +12105,16 @@
 		)
 		(uuid "be956caf-dcba-470c-a4d8-b55cfad22c7c")
 	)
+	(label "USB_PORT_D+"
+		(at 52.07 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cb472947-fd16-4b2d-86a3-7403514140d0")
+	)
 	(label "H_PRESENCE"
 		(at 323.85 189.23 0)
 		(effects
@@ -12402,6 +12412,16 @@
 			(justify right bottom)
 		)
 		(uuid "f80c7ff1-f890-45a9-bf7e-09f65c2f15bb")
+	)
+	(label "USB_PORT_D-"
+		(at 55.88 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fa9ca985-9158-4b7c-b017-d387d5468164")
 	)
 	(label "RX"
 		(at 360.68 180.34 180)
@@ -18053,7 +18073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b973e61-bc9a-43db-941a-301fea865dfc")
-		(property "Reference" "TP2"
+		(property "Reference" "TP10"
 			(at 309.88 220.2179 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18114,7 +18134,7 @@
 		(instances
 			(project "ummon"
 				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
-					(reference "TP2")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -25088,7 +25108,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef9f1e19-967c-4b55-bd01-342a733f5c54")
-		(property "Reference" "TP10"
+		(property "Reference" "TP2"
 			(at 347.98 240.5379 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25149,7 +25169,7 @@
 		(instances
 			(project "ummon"
 				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
-					(reference "TP10")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
