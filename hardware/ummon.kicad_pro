@@ -541,12 +541,12 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.25,
+        "clearance": 0.2,
         "name": "EDP Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.35,
+        "track_width": 0.2,
         "tuning_profile": ""
       },
       {
@@ -774,7 +774,7 @@
         "uuid": "535d19c6-6731-456b-b7fb-ac6bb0b86499"
       }
     ],
-    "used_designators": "#PWR41,P1",
+    "used_designators": "P2",
     "variants": []
   },
   "sheets": [
