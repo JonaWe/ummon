@@ -257,7 +257,22 @@
     },
     "layer_pairs": [],
     "layer_presets": [],
-    "viewports": []
+    "viewports": [
+      {
+        "h": 31470859.971818164,
+        "name": "EPD",
+        "w": 47168004.24000001,
+        "x": 125217712.2827059,
+        "y": 119313331.96817072
+      },
+      {
+        "h": 78309570.28507459,
+        "name": "FULL",
+        "w": 117369088.31047675,
+        "x": 91238331.08270007,
+        "y": 79406897.88938004
+      }
+    ]
   },
   "boards": [],
   "component_class_settings": {
@@ -759,7 +774,7 @@
         "uuid": "535d19c6-6731-456b-b7fb-ac6bb0b86499"
       }
     ],
-    "used_designators": "SW4,#PWR58-63,H1-5",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
