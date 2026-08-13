@@ -12923,7 +12923,7 @@
 				)
 			)
 		)
-		(property "Value" "SGP41-D-R4"
+		(property "Value" "SGP41"
 			(at 237.49 236.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13220,7 +13220,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SCD41-D-R2"
+		(property "Value" "SCD41"
 			(at 65.6433 224.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14512,7 +14512,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "PVGL"
 			(at 327.66 235.4579 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17690,7 +17690,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "EN"
 			(at 309.88 212.5979 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18280,7 +18280,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "5V"
 			(at 347.98 217.6779 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18449,7 +18449,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "PVGH"
 			(at 309.88 243.0779 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18528,7 +18528,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "RESE"
 			(at 309.88 232.9179 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18607,7 +18607,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "GPIO9"
 			(at 309.88 222.7579 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19105,7 +19105,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "VGH"
 			(at 327.66 212.5979 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21326,7 +21326,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "GND"
 			(at 347.98 230.3779 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22332,7 +22332,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "VGL"
 			(at 327.66 224.0279 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22501,7 +22501,7 @@
 				)
 			)
 		)
-		(property "Value" "FPC 0.5MM 24P Vertical"
+		(property "Value" "Display"
 			(at 387.985 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24660,7 +24660,7 @@
 				)
 			)
 		)
-		(property "Value" "SHT41-AD1B-R2"
+		(property "Value" "SHT41"
 			(at 137.16 250.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25848,7 +25848,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "3V3"
 			(at 347.98 243.0779 0)
 			(show_name no)
 			(do_not_autoplace no)
