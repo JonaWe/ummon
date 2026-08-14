@@ -14402,7 +14402,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3kΩ"
+		(property "Value" "10kΩ"
 			(at 31.75 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14445,7 +14445,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C26010"
+		(property "LCSC Part" "C17414"
 			(at 31.75 137.16 90)
 			(hide yes)
 			(show_name no)
@@ -17986,7 +17986,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5e6b6061-bc43-4742-9a14-b826f324a1b7")
 		(property "Reference" "C11"
