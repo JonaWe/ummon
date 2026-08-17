@@ -774,7 +774,7 @@
         "uuid": "535d19c6-6731-456b-b7fb-ac6bb0b86499"
       }
     ],
-    "used_designators": "J6,R17-18,C19-21,U6,Q2,#PWR39,#PWR41,#PWR48,#PWR50,#PWR58,#PWR62,#PWR64,P2",
+    "used_designators": "J6,LED1,R14,R17-19,C19-21,U6,Q2-3,#PWR39,#PWR41,#PWR48,#PWR50,#PWR54-55,#PWR58,#PWR62,#PWR64,P2",
     "variants": []
   },
   "sheets": [
