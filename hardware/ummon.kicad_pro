@@ -546,7 +546,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.3,
         "tuning_profile": ""
       },
       {
@@ -595,24 +595,16 @@
         "pattern": "/USB_D*"
       },
       {
-        "netclass": "EDP Power",
-        "pattern": "/EPD_PREVG*"
-      },
-      {
-        "netclass": "EDP Power",
-        "pattern": "/EPD_GDR"
-      },
-      {
-        "netclass": "EDP Power",
-        "pattern": "/EPD_RESE"
-      },
-      {
         "netclass": "Power",
         "pattern": "/USB_VBUS"
       },
       {
         "netclass": "USB_DATA",
         "pattern": "/USB_PORT_D*"
+      },
+      {
+        "netclass": "EDP Power",
+        "pattern": "/EPD_(VGH|VGL|SW|GDR|RESE|RESE_3O|RESE_0.47O|CP|VSH2|VSH|VDD|VSL|VCOM)|EPD_3V3"
       }
     ]
   },
@@ -774,7 +766,7 @@
         "uuid": "535d19c6-6731-456b-b7fb-ac6bb0b86499"
       }
     ],
-    "used_designators": "J6,LED1,R14,R17-19,C19-21,U6,Q2-3,#PWR39,#PWR41,#PWR48,#PWR50,#PWR54-55,#PWR58,#PWR62,#PWR64,P2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

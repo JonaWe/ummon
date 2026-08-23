@@ -8724,7 +8724,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 25.4) (xy 266.7 25.4)
+			(xy 275.59 25.4) (xy 278.13 25.4)
 		)
 		(stroke
 			(width 0)
@@ -9084,7 +9084,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 25.4) (xy 251.46 25.4)
+			(xy 243.84 25.4) (xy 262.89 25.4)
 		)
 		(stroke
 			(width 0)
@@ -10164,7 +10164,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 25.4) (xy 259.08 25.4)
+			(xy 267.97 25.4) (xy 270.51 25.4)
 		)
 		(stroke
 			(width 0)
@@ -12058,6 +12058,16 @@
 		)
 		(uuid "5f64063c-db18-4097-aa31-f478160d0f35")
 	)
+	(label "EPD_RESE_0.47O"
+		(at 243.84 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5fa62f3a-b588-4e60-a83e-e938d1c883e0")
+	)
 	(label "H_PRESENCE"
 		(at 133.35 158.75 180)
 		(effects
@@ -12393,17 +12403,6 @@
 		)
 		(uuid "a8765ef1-4bea-4858-8796-fed31d369703")
 	)
-	(label "Reference had a single 3Ω R"
-		(at 250.19 19.05 0)
-		(effects
-			(font
-				(size 0.8382 0.8382)
-				(color 255 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "a941a8e2-77b8-4a80-95d8-9dff48529bf0")
-	)
 	(label "EPD_VSL"
 		(at 360.68 86.36 0)
 		(effects
@@ -12658,6 +12657,16 @@
 		)
 		(uuid "d62f0821-491f-45d3-9674-a6b5a1366644")
 	)
+	(label "EPD_RESE_3O"
+		(at 245.11 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d641bf1b-6e74-44bb-ac14-ae017b8a03ef")
+	)
 	(label "CO2 Sensor"
 		(at 40.64 207.01 0)
 		(effects
@@ -12881,17 +12890,6 @@
 			(justify left bottom)
 		)
 		(uuid "fb43188a-95ee-451e-8d58-f21896cf5fe7")
-	)
-	(label "Reference had a single 0.47Ω R"
-		(at 238.76 49.53 0)
-		(effects
-			(font
-				(size 0.8382 0.8382)
-				(color 255 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "fd16cc89-e4ea-46fd-9137-c6ca3ff7bf53")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -13609,6 +13607,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 358.14 218.44 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0da3ee17-3dc8-4c40-9826-45ee131957f7")
+		(property "Reference" "#PWR064"
+			(at 358.14 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EPD_3V3"
+			(at 358.14 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 358.14 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 358.14 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5fe49744-584b-4e8d-9945-25d3aa6e2ab3")
+		)
+		(instances
+			(project "ummon"
+				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 30.48 222.25 0)
 		(unit 1)
@@ -14108,7 +14184,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 254 25.4 270)
+		(at 265.43 25.4 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14119,7 +14195,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b8aaeae-0de0-4e54-9ef5-09e04f0c60c0")
 		(property "Reference" "R10"
-			(at 254 20.32 90)
+			(at 265.43 20.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14129,7 +14205,7 @@
 			)
 		)
 		(property "Value" "2.2Ω"
-			(at 254 22.86 90)
+			(at 265.43 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14139,7 +14215,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 254 25.4 0)
+			(at 265.43 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14150,7 +14226,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 25.4 0)
+			(at 265.43 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14161,7 +14237,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 254 25.4 0)
+			(at 265.43 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14172,7 +14248,7 @@
 			)
 		)
 		(property "LCSC Part" "C17521"
-			(at 254 25.4 90)
+			(at 265.43 25.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14885,6 +14961,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 358.14 218.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2369d7e9-837b-4987-b521-f8974c4e3790")
+		(property "Reference" "TP11"
+			(at 360.68 213.8679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EPD_3V3"
+			(at 360.68 216.4079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 363.22 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 358.14 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33526955-72d3-434f-8c58-c38151c5c0f3")
+		)
+		(instances
+			(project "ummon"
+				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 313.69 58.42 0)
 		(unit 1)
@@ -15314,7 +15469,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 261.62 25.4 270)
+		(at 273.05 25.4 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15325,7 +15480,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ce066bc-9b65-4a63-b5d9-bd779e3b5ecc")
 		(property "Reference" "R16"
-			(at 261.62 20.32 90)
+			(at 273.05 20.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15335,7 +15490,7 @@
 			)
 		)
 		(property "Value" "1Ω"
-			(at 261.62 22.86 90)
+			(at 273.05 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15345,7 +15500,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 261.62 25.4 0)
+			(at 273.05 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15356,7 +15511,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 25.4 0)
+			(at 273.05 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15367,7 +15522,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 261.62 25.4 0)
+			(at 273.05 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15378,7 +15533,7 @@
 			)
 		)
 		(property "LCSC Part" "C25271"
-			(at 261.62 25.4 90)
+			(at 273.05 25.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26072,7 +26227,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 266.7 25.4 0)
+		(at 278.13 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26083,7 +26238,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0f266d8-9fc9-4605-bb7f-9ef8cc96910e")
 		(property "Reference" "#PWR042"
-			(at 266.7 31.75 0)
+			(at 278.13 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26094,7 +26249,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 266.7 30.48 0)
+			(at 278.13 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26104,7 +26259,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 25.4 0)
+			(at 278.13 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26115,7 +26270,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 25.4 0)
+			(at 278.13 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26126,7 +26281,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 266.7 25.4 0)
+			(at 278.13 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
