@@ -101,7 +101,6 @@
 			(dielectric_constraints yes)
 		)
 		(pad_to_mask_clearance 0)
-		(solder_mask_min_width 0.1)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting
 			(front yes)
@@ -12998,7 +12997,7 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -13760,7 +13759,7 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -17553,7 +17552,7 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -17983,7 +17982,7 @@
 				(pins)
 			)
 		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -18904,7 +18903,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_pos_files dnp)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.261252 0.735)
@@ -20270,7 +20269,7 @@
 			(at 2.54 0.8 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e221cb58-a214-479e-bfa7-5905a3833b23")
+			(uuid "f9a66dc3-4136-4aa1-8743-a4891b312ec6")
 			(effects
 				(font
 					(size 1 1)
@@ -20281,7 +20280,7 @@
 		(property "Value" "SGP41"
 			(at 0.3 2.9 0)
 			(layer "F.Fab")
-			(uuid "38cd1c4b-9379-4cf9-915f-5e363b81ddee")
+			(uuid "6b7b0bcd-b6d0-4e78-998b-733eab851dcd")
 			(effects
 				(font
 					(size 1 1)
@@ -20293,7 +20292,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e5c1387e-5a1a-48dc-9758-ab23e53f070d")
+			(uuid "3e35bb89-aa89-4140-a32c-2b14a9a6b40f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20304,7 +20303,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3818f436-3ab4-46ff-bb7a-5cd28218da69")
+			(uuid "a5586b4a-39df-4064-b575-e5f263bb28af")
 			(effects
 				(font
 					(size 1.27 1.27)
