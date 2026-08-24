@@ -7683,7 +7683,7 @@
 		(uuid "704295da-5dca-4644-a1db-9e82153fb2b4")
 	)
 	(rectangle
-		(start 118.618 12.192)
+		(start 124.206 12.192)
 		(end 220.472 104.394)
 		(stroke
 			(width 0)
@@ -7732,7 +7732,7 @@
 	)
 	(rectangle
 		(start 12.192 12.192)
-		(end 118.618 104.394)
+		(end 124.206 104.394)
 		(stroke
 			(width 0)
 			(type default)
@@ -8017,6 +8017,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8fa2c5a8-4c28-4073-a036-cf5301f9f21a")
+	)
+	(junction
+		(at 113.03 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94b55367-c7b2-4331-bab6-1584be30b864")
 	)
 	(junction
 		(at 394.97 149.86)
@@ -8691,6 +8697,16 @@
 			(type default)
 		)
 		(uuid "1e52cea5-cbb7-4f4c-b969-bf0db9e92a8e")
+	)
+	(wire
+		(pts
+			(xy 113.03 69.85) (xy 113.03 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e7429ae-9648-4c2b-a91b-f3193286dea9")
 	)
 	(wire
 		(pts
@@ -10154,6 +10170,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 62.23) (xy 113.03 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "895eae4c-b435-4845-b765-a8cbed449ae7")
+	)
+	(wire
+		(pts
 			(xy 30.48 218.44) (xy 44.45 218.44)
 		)
 		(stroke
@@ -11274,16 +11300,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 62.23) (xy 101.6 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7a804f3-c911-4a32-81c7-a15f9fc1f9e8")
-	)
-	(wire
-		(pts
 			(xy 381 157.48) (xy 394.97 157.48)
 		)
 		(stroke
@@ -11351,6 +11367,16 @@
 			(type default)
 		)
 		(uuid "db526b50-0fb2-4e5e-8e45-bd1e673a353b")
+	)
+	(wire
+		(pts
+			(xy 113.03 62.23) (xy 113.03 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfecb375-9caa-4660-a6d7-5dd7a7726218")
 	)
 	(wire
 		(pts
@@ -11712,6 +11738,16 @@
 		)
 		(uuid "009b20da-a59a-42c3-b91e-deacd0647341")
 	)
+	(label "USB_PORT_D+"
+		(at 58.42 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "00bd9863-4e8b-4503-b1ad-22a7ce65a61a")
+	)
 	(label "EPD_SW"
 		(at 337.82 240.03 180)
 		(effects
@@ -11792,6 +11828,16 @@
 			(justify right bottom)
 		)
 		(uuid "1a835b42-0e22-45c7-87db-f6eb1ecea8f5")
+	)
+	(label "USB_D+"
+		(at 107.95 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1afe06d7-d0ba-4202-922b-54acd7892ba5")
 	)
 	(label "I2C_SDA"
 		(at 251.46 151.13 0)
@@ -12211,16 +12257,6 @@
 		)
 		(uuid "7eb2667f-9ad5-4744-a40f-3a8ae2b5b985")
 	)
-	(label "USB_D+"
-		(at 107.95 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "80242e9c-0e27-4ddc-b728-fd9aea000ef7")
-	)
 	(label "EPD_VGH"
 		(at 270.51 96.52 0)
 		(effects
@@ -12524,6 +12560,16 @@
 		)
 		(uuid "b8b54e72-dd91-4c70-b717-29e156713f18")
 	)
+	(label "USB_D-"
+		(at 107.95 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b9afc6ff-a0ad-4019-8573-8f6addcd8a02")
+	)
 	(label "USB_CC1"
 		(at 48.26 59.69 180)
 		(effects
@@ -12574,16 +12620,6 @@
 		)
 		(uuid "c91a4bcb-a046-40fe-af33-658837335a66")
 	)
-	(label "USB_PORT_D+"
-		(at 52.07 57.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cb472947-fd16-4b2d-86a3-7403514140d0")
-	)
 	(label "H_PRESENCE"
 		(at 323.85 189.23 0)
 		(effects
@@ -12624,16 +12660,6 @@
 			(justify right bottom)
 		)
 		(uuid "d0d1da18-ddcd-4330-98ea-01d1175d7757")
-	)
-	(label "USB_D-"
-		(at 107.95 54.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d215a68c-d11c-4873-acce-7df896153807")
 	)
 	(label "USB C Port"
 		(at 38.1 19.05 0)
@@ -12851,6 +12877,16 @@
 		)
 		(uuid "f028cd45-3695-4d06-99a3-c9ca8bfd1108")
 	)
+	(label "USB_PORT_D-"
+		(at 52.07 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f11019c3-3ac7-4326-9149-e2ffda24be7a")
+	)
 	(label "I2C_SDA"
 		(at 215.9 255.27 0)
 		(effects
@@ -12860,16 +12896,6 @@
 			(justify left bottom)
 		)
 		(uuid "f75f5573-f3bb-4654-becb-1cc368d6111d")
-	)
-	(label "USB_PORT_D-"
-		(at 55.88 49.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fa9ca985-9158-4b7c-b017-d387d5468164")
 	)
 	(label "RX"
 		(at 360.68 180.34 180)
@@ -16198,6 +16224,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 113.03 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a6c0ed8-41ed-4b2a-8a71-dafd1e2f583d")
+		(property "Reference" "#PWR065"
+			(at 113.03 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e4949e3e-89d8-43f4-af04-063819ee8d93")
+		)
+		(instances
+			(project "ummon"
+				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 158.75 247.65 0)
 		(unit 1)
 		(body_style 1)
@@ -17562,7 +17666,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 101.6 62.23 0)
+		(at 113.03 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17573,7 +17677,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e923546-1d75-43c6-bf13-aba4216bc6e6")
 		(property "Reference" "#PWR052"
-			(at 101.6 66.04 0)
+			(at 113.03 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17584,7 +17688,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 101.6 57.15 0)
+			(at 113.03 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17594,7 +17698,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 62.23 0)
+			(at 113.03 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17605,7 +17709,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 62.23 0)
+			(at 113.03 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17616,7 +17720,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 101.6 62.23 0)
+			(at 113.03 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20613,6 +20717,99 @@
 			(project "ummon"
 				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
 					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 113.03 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8238e816-f09e-4008-a4f1-691529b47b3a")
+		(property "Reference" "C20"
+			(at 115.57 63.5062 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 115.57 66.0462 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 113.03 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 113.03 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C49678"
+			(at 113.03 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aeb3526c-89e5-4db3-bc78-5dff74df6188")
+		)
+		(pin "2"
+			(uuid "e77e3ca2-1a52-4e7b-82e7-4f13bffc841d")
+		)
+		(instances
+			(project "ummon"
+				(path "/535d19c6-6731-456b-b7fb-ac6bb0b86499"
+					(reference "C20")
 					(unit 1)
 				)
 			)
